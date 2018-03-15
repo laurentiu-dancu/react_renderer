@@ -1,0 +1,4 @@
+services:
+  react_renderer.context_provider:
+    class: Limenius\ReactRenderer\Context\SymfonyContextProvider
+    arguments: ['@request_stack']
